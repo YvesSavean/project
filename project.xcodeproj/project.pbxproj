@@ -13,6 +13,7 @@
 		5ECDBDBB19E3E21500ADABC8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDBDBA19E3E21500ADABC8 /* Images.xcassets */; };
 		5ECDBDBE19E3E21500ADABC8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ECDBDBC19E3E21500ADABC8 /* LaunchScreen.xib */; };
 		5ECDBDCA19E3E21600ADABC8 /* projectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDBDC919E3E21600ADABC8 /* projectTests.swift */; };
+		5ECDBDD419E4036C00ADABC8 /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECDBDD319E4036C00ADABC8 /* Math.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		5ECDBDC319E3E21600ADABC8 /* projectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ECDBDC819E3E21600ADABC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ECDBDC919E3E21600ADABC8 /* projectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectTests.swift; sourceTree = "<group>"; };
+		5ECDBDD319E4036C00ADABC8 /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 				5ECDBDBA19E3E21500ADABC8 /* Images.xcassets */,
 				5ECDBDBC19E3E21500ADABC8 /* LaunchScreen.xib */,
 				5ECDBDB119E3E21500ADABC8 /* Supporting Files */,
+				5ECDBDD319E4036C00ADABC8 /* Math.swift */,
 			);
 			path = project;
 			sourceTree = "<group>";
@@ -214,6 +217,7 @@
 			files = (
 				5ECDBDB619E3E21500ADABC8 /* ViewController.swift in Sources */,
 				5ECDBDB419E3E21500ADABC8 /* AppDelegate.swift in Sources */,
+				5ECDBDD419E4036C00ADABC8 /* Math.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -407,6 +411,7 @@
 				5ECDBDCF19E3E21600ADABC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5ECDBDD019E3E21600ADABC8 /* Build configuration list for PBXNativeTarget "projectTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				5ECDBDD219E3E21600ADABC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
